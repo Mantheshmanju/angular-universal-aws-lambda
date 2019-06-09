@@ -7,7 +7,7 @@
     "serverless": "serverless",
     "start": "serverless offline start",
     "build": "npm run build:angular && npm run build:server",
-    "build:angular": "ng build --prod --app browser && ng build --prod --app server --output-hashing non",
+    "build:angular": "ng build --prod --app browser && ng build --prod --app server --output-hashing none",
     "build:server": "webpack --config ./server/webpack.config.js",
     "test": "ng test",
     "lint": "ng lint",
